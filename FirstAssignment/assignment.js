@@ -38,6 +38,14 @@ for(let z=0; z<=6;z++)
 console.log(newItCompanies);  
 
 
+//revers array new option
+let newItCompanies2=[]; 
+for(let z=6; z>=0;z--)
+{
+    newItCompanies2.push(st[z]);
+    console.log(newItCompanies2);  
+
+}
 
 
 //4. iterate array using for loop
